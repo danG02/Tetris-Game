@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#score {
+    text-align: center;
+}
+
+#btn {
+    text-align: center;
+}
+
+
+
+
+.container {
+    display: flex;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: 0 auto;
+}
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: blue;
+}
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
